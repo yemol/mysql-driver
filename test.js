@@ -1,7 +1,7 @@
-var configuration = require('./start.js').configuration
-var mysqlAdapter = require('./start.js').mysqlAdapter
+require('babel/register')
+var config = require ("./src/configuration.js")
+var adapter = require  ("./src/mysqladapter.js")
 
-configuration.connection = "123"
-
-console.log (configuration.connection)
-var connection = new mysqlAdapter(configuration)
+config.connection = "123"
+console.log (config.connection)
+var connection = new adapter(config)
