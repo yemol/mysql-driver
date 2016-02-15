@@ -1,0 +1,37 @@
+{
+  "name": "mysql-driver",
+  "version": "0.1.0",
+  "description": "This is a lib used to operat mysql database.",
+  "main": "start.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.gamefy.cn/yemol/mysql-driver.git"
+  },
+  "keywords": [
+    "mysql",
+    "node"
+  ],
+  "author": "Yemol <yemol@gamefy.cn>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "mysql": "^2.9.0",
+    "node-uuid": "^1.4.3",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yemol/NotificationGate/wiki",
+    "email": "yemol@gamefy.cn"
+  },
+  "homepage": "http://www.gamefy.cn"
+}
