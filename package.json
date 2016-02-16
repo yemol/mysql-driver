@@ -1,6 +1,6 @@
 {
   "name": "mysql-driver",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "This is a lib used to operat mysql database.",
   "main": "start.js",
   "scripts": {
