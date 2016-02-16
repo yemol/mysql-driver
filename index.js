@@ -2,7 +2,7 @@ require('babel/register')
 
 module.exports = {
     configuration: require("./lib/configuration.js"),
-    mysqlAdapter: require("./lib/mysqladapter.js"),
+    mysqlAdapter: require("./lib/mysqlAdapter.js"),
 };
 
 // var config = require ("./lib/configuration.js")
