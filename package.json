@@ -1,7 +1,7 @@
 {
   "name": "simple-mysql-delegate",
   "version": "0.2.4",
-  "description": "This is a lib used to operat mysql database. Used promise.",
+  "description": "This is a lib used to operat mysql database. We used promise in this module.",
   "main": "start.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
