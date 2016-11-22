@@ -1,6 +1,6 @@
 {
   "name": "simple-mysql-delegate",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "This is a lib used to operat mysql database. We used promise in this module.",
   "main": "start.js",
   "scripts": {
