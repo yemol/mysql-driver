@@ -2,8 +2,8 @@
 
 import mysql from 'mysql'
 
-
-export default class mysqlAdapter {
+// export default
+module.exports = class mysqlAdapter {
   // constructor, used to create mysql connection pool.
   constructor (configuration) {
     this.pool  = mysql.createPool({

@@ -1,4 +1,4 @@
-require('babel/register')
+require('babel-register')
 
 module.exports = {
     configuration: require("./lib/configuration.js"),

@@ -1,6 +1,6 @@
 {
   "name": "simple-mysql-delegate",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "This is a lib used to operat mysql database. We used promise in this module.",
   "main": "start.js",
   "scripts": {
@@ -19,16 +19,18 @@
   "author": "Yemol <yemol@gamefy.cn>",
   "license": "ISC",
   "dependencies": {
-    "babel-runtime": "^5.8.20",
     "mysql": "^2.9.0",
     "node-uuid": "^1.4.3",
     "superagent": "^1.4.0"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
+    "babel-core": "^6.18.2",
     "babel-eslint": "^4.1.0",
-    "eslint": "^1.10.3",
-    "eslint-plugin-react": "^3.3.0"
+    "babel-plugin-transform-es2015-classes": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "eslint": "^1.10.3"
   },
   "bugs": {
     "url": "http://git.gamefy.cn/yemol/mysql-driver/wiki",
