@@ -1,6 +1,6 @@
 {
-  "name": "mysql-driver",
-  "version": "0.2.3",
+  "name": "simple-mysql-delegate",
+  "version": "0.2.4",
   "description": "This is a lib used to operat mysql database.",
   "main": "start.js",
   "scripts": {
